@@ -1,4 +1,4 @@
-.App {
+body {
   text-align: center;
   color: #000;
 }
@@ -38,9 +38,9 @@ h2{
   top: 0;
   left: 0;
   bottom: 0;
-  width: 30%;
+  width: 20%;
   color: #fff;
-  background-color: #000;
+  background-color: #111;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,7 +52,7 @@ h2{
   right: 0;
   bottom: 0;
   width:35%;
-  background-color: #000;
+  background-color: #111;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,7 +62,6 @@ h2{
   position: absolute;
   top: 20px;
   right: 20px;
-  background-color: #282c34;
   border: none;
   padding: 10px 20px;
 
@@ -71,15 +70,14 @@ h2{
 .close-login-button {
   top: 0px;
   right: 0px;
-  background-color: #282c34;
   border: none;
   padding: 5px 10px;
   display: flex;
 }
 
-.side-menu {
-  background-color: #282c34;
-  padding: 20px;
+.side-menu {;
+  background-color: #111;
+  padding: 10px;
   width: 70%;
   display: inline;
 }
