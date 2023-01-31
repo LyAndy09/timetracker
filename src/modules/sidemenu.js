@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import LightModeToggle from "./toggle";
+
 function SideMenu() {
   const [showOverlay, setShowOverlay] = useState(false);
 
@@ -22,16 +23,13 @@ function SideMenu() {
             <nav>
               <ul>
                 <li>
-                  <LightModeToggle />
-                </li>
-                <li>
                   <a href="#">Calendar</a>
                 </li>
                 <li>
                   <a href="#">Search</a>
                 </li>
                 <li>
-                  <a href="#">Contact Us</a>
+                  <a href="mailto:lyand@oregonstate.edu">Contact Us</a>
                 </li>
               </ul>
             </nav>
